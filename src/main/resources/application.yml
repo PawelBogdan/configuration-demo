@@ -2,6 +2,8 @@ server:
   worker:
     limit: 1
     sub-worker-count: 4
+    worker-count: 3
     group:
-
+      1:
+        worker-count: 5
 
