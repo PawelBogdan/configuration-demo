@@ -1,0 +1,19 @@
+{
+  "properties":[{
+    "name": "server.worker.group",
+    "type":"java.util.Map<java.lang.String, com.BooProperties>",
+    "description": ".....",
+    "sourceType":"com.FooProperties"
+  }],
+  "hints":[{
+    "name":"server.worker.group.keys",
+    "values": [
+      {
+        "value": "1"
+      },
+      {
+        "value": "2"
+      }
+    ]
+  }]
+}
